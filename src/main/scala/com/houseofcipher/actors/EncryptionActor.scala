@@ -10,7 +10,6 @@ import akka.actor.ActorLogging
 
 import scala.util.{Failure, Success, Try}
 
-// Note: Usually the message object (GreeterMessages) and the actor class (GreeterActor) will be called the same thing (eg. Greeter)
 object EncryptionActor {
   case class EncryptionTask(passphrase: String, plainText: String)
   case object Done

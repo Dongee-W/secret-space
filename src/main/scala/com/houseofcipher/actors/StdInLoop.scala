@@ -11,6 +11,10 @@ object StdInLoop {
   case class Continue(pp: Passphrase)
 }
 
+/**
+  * User interface
+  */
+
 class StdInLoop extends Actor with ActorLogging {
 
   def receive = {

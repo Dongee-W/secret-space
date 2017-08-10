@@ -7,7 +7,7 @@ import com.houseofcipher.actors.InitEncrptionSystem.Passphrase
 import scala.io.StdIn
 
 /**
-  * Created by summerlight on 1/14/17.
+  * System initiation
   */
 object InitEncrptionSystem {
   case class Passphrase(phrase: String)
